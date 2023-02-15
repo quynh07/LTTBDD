@@ -1,7 +1,7 @@
 import 'dart:io';
 void main(){
   //Cau1
-  print("Bui Thi Quynh");
+    print("Bui Thi Quynh");
   // Cau 2
   print("Hello I am John Doe ");
   print(" Hello I'm John Doe ");
@@ -43,6 +43,19 @@ void main(){
   String text = "Nhap chuoi co khoang trang: ";
   String newText = text.replaceAll(' ','');
   print ( newText);
+  // cau 10
+  String d = '10';
+  int cvString = int.parse(d);
+  print (" Bien a co kieu: ${a.runtimeType}");
+  print ( " Bien cvString co kieu: ${cvString.runtimeType}");
+  // cau 11
+  print(" Nhap so tien tren hoa don: ");
+  int hd = int.parse(stdin.readLineSync()!);
+  print(" Nhap so nguoi an: ");
+  int nguoi = int.parse(stdin.readLineSync()!);
+  double tien = hd / nguoi;
+  print(" So tien moi nguoi phai tra la: $tien");
+
   
   }
 
